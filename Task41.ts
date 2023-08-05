@@ -1,4 +1,4 @@
-let magician_name:string []=["Merlin","Teller","Ricky"]
+ let magician_name:string []=["Merlin","Teller","Ricky"]
 
 //  rest parameter 
 let show_magicians=function(...magician:string[]){
@@ -10,3 +10,5 @@ console.log(magician[i])
 }
 
 show_magicians("Merlin","Teller","Ricky")
+
+export {magician_name};
