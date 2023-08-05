@@ -14,18 +14,20 @@ Requires [Node.js](https://nodejs.org/) v10+ to run.
 npm install -g typescript
 npm i tsx
 ```
-## Run File 
-  npx tsx Task02.ts
-
-## Assignment Topics 
+## Run File
 ```sh
-Varaible Concept
-Template literals
-If-Else Statement
-Array Method (include,splice,slice,fill,form)
-Loops (for-each,for-in,for-of)
-Function (Arrow-function,anonymous-function)
+  npx tsx Task02.ts
 ```
+## Assignment Topics 
+
+
+1. Varaible Concept
+2. Template literals
+3. If-Else Statement
+4. Array Method (include,splice,slice,fill,form)
+5. Loops (for-each,for-in,for-of)
+6. Function (Arrow-function,anonymous-function)
+
 # Description
 >  First Quater Typescript Assignment Solution which helps to understanding syntax and helps software developer to add safety at projects     
 
