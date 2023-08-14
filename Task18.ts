@@ -1,15 +1,40 @@
-let places:string[]=["Lahore","Islamabad","Karachi","Swat","Kart"];
+//  original array 
+let places:string[]= ["Karachi","Lahore","Islamabad","Swat","Kalam"];
 //  form create a new array copies
 //let e =Array.from(places);
-let e=[...places];
 
+//  sorted function 
+function sortalphabet(location:string[],order:number):string[]{
+   if(order===0){
+    return [...location].sort() 
+
+   }
+else{
+    return [...location].reverse();
+}
+    }
+    
+
+ 
+// without sorting alphabet
 console.log(places)
-console.log(e.sort())
+//  with sort
+  console.log(sortalphabet(places,0))
+//   Show that your array is still in its original order by printing it.
+ console.log(places)
+//  reverse alphabet
+let e=sortalphabet(places,1); 
+console.log(e)
+//  print original array 
 console.log(places)
-console.log(e.reverse())
-console.log(e.reverse().sort())
+
+// 
+
+console.log(Object.keys(e).reverse())
+console.log(Object.keys(places))
 
 
-const points = [40, 100, 1, 5, 25, 10];
-points.sort(function(a, b){  
-return a-b});
+
+
+
+
