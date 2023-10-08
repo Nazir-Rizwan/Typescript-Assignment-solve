@@ -18,8 +18,7 @@ const newName = f_name.split(" ").map((value: string) =>
  let myvariable:unknown=10;
  let myvriable:any=10;
  let kgk:number|boolean;
- kgk=20;
-kgk=true;
+
 
 
 
